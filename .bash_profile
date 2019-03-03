@@ -8,6 +8,11 @@ export PLENV_ROOT=~/.plenv
 export PATH="$PLENV_ROOT/bin:$PATH"
 eval "$(plenv init -)"
 
+# goenv
+export GOENV_ROOT=~/.goenv
+export PATH="$GOENV_ROOT/bin:$PATH"
+eval "$(goenv init -)"
+
 # fzf
 [ -r ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_OPTS='
