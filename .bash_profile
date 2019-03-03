@@ -3,6 +3,11 @@ export NODENV_ROOT=~/.nodenv
 export PATH="$NODENV_ROOT/bin:$PATH"
 eval "$(nodenv init -)"
 
+# plenv
+export PLENV_ROOT=~/.plenv
+export PATH="$PLENV_ROOT/bin:$PATH"
+eval "$(plenv init -)"
+
 # fzf
 [ -r ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_OPTS='
