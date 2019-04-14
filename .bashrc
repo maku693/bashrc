@@ -1,5 +1,5 @@
 # Prompt
-PS1='\e[34m\w\e[m $> '
+PS1='\e[34m\w\e[m\n\$ '
 
 # History
 HISTCONTROL=erasedups
